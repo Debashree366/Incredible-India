@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<meta charset="UTF-8">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="css/register.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/registerform.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+
+</head> 
+
+<body>
+	<header>
+		<nav>
+		
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
+			</div><!---------------logo----------------->
+			
+			<div class="menu">
+				<a href="index.html">Home</a>
+				<a href="login.html">Login</a>
+				<a href="#register.html">Register</a>
+				<a href="contact.html">Contact Us</a>
+			</div>
+
+		</nav>
+	    
+	</header>
+	
+		<span href="#" class="button" id="toggle-register">Registration Form</span>
+
+  <div id="register">
+  <div id="triangle"></div>
+  <h1>Registration Form</h1>
+
+        <form action="#" method="post" onsubmit="return validation()">
+	  <div id="details">
+		<label>Name:</label><br>
+		<input type="text" name="user" id="fuser" class="inpt" autocomplete="off"><br>
+		<span id="text"></span>
+	  </div>
+
+	  <div id="details">
+		<label>Date of Birth:</label><br>
+		<input type="date" name="dob" id="Dob" class="inpt" autocomplete="off"><br>
+		<span id="text1"></span>
+	  </div>
+
+	  <div id="details">
+		<label>Mobile Number:</label><br>
+		<input type="text" name="numb" id="number" class="inpt" autocomplete="off"><br>
+		<span id="text2"></span>
+	  </div>
+
+	  <div id="details">
+		<label>Email:</label><br>
+		<input type="text" name="email" id="email" class="inpt" autocomplete="off"><br>
+		<span id="text3"></span>
+	  </div>
+
+	  <div id="details">
+		<label>Password:</label><br>
+		<input type="text" name="password" id="password" class="inpt" autocomplete="off"><br>
+		<span id="text4"></span>
+	  </div>
+
+	  <div id="details">
+		<label>Address:</label><br>
+		<input type="text" name="address" id="address" class="inpt" autocomplete="off"><br>
+		<span id="text5"></span>
+	  </div>
+	
+      <div id="detailsindia"> 
+      <p>Type 'India'to submit this form finally.</p>
+	  
+	  	
+	  	<input type="text" class="inpt"> 
+        <input type="Submit" id="button">	  	
+	  </div>
+	 
+	 
+	</form>
+	<span></span>
+	<script>
+		$(document).ready(function(){
+	$( "#detailsindia" ).submit(function( event ) {  
+  if ( $( "input:first" ).val() === "India" ) {  
+    $( "span" ).text( "Submitted Successfully." ).show();  
+    return;  
+  }  
+  $( "span" ).text( "Not valid!" ).show().fadeOut( 2000 );  
+  event.preventDefault();  
+});  });
+</script>
+
+	
+  </div>  
+ 
+
+</div>
+
+    <footer>
+			
+			<br><p id="footnote">
+				© Copyright 2020. All Rights Reserved.
+			</p><br>
+		
+	</footer>
+
+</body>
+</html>

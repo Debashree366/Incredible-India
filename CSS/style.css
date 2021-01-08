@@ -1,0 +1,1517 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+	
+}
+header{
+	   width: 100%;
+	   height: 150px;
+	   
+}
+body{
+	background: #2F4F4F;
+
+}
+nav{
+	width: 100%;
+	height: 150px;
+	background: #8FBC8F;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+}
+
+nav .logo a{
+	         width: 45%;
+	         margin-left: 10px;
+	                  
+}
+nav .menu{
+	      width: 40%;
+	      display: flex; 
+	      justify-content: space-around;
+
+
+}
+nav .menu a{
+	        width: 25%;
+	        text-decoration: none;
+	        color: white;
+	        font-weight: bold;
+}
+.menu a:hover, .menu a {
+	                    color: #ffc947;
+
+}
+
+
+
+
+/*---------------------Welcome-------------------------*/
+
+
+.mainbox{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+}
+
+.mainbox> div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.article1{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.article1> div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+
+.article1img {
+	border-radius: 10px;
+}
+.article2{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+.article2> div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  
+}
+.article3{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.article3> div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  
+}
+.article4{
+  display: flex;
+  background-color: #8FBC8F;
+  flex-direction: row;
+  align-content: stretch;
+  
+
+}
+
+.article4> div {
+  background-color: #f1f1f1;
+  margin: 20px;
+  padding: 20px;
+  
+
+}
+.article5{
+  display: flex;
+  background-color: #8FBC8F;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.article5> div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.article6{
+  display: flex;
+  background-color: #8FBC8F;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.article6> div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+
+h1{
+	text-align: center;
+	color: #E0FFFF;
+}
+.highlight{
+	color: #FF00FF;
+  font-weight: bold;
+}
+
+/*----------------------------Sidebar----------------------*/
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding:5px;
+  text-decoration: none;
+  width: 200px;
+}
+ 
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color:#2F4F4F;
+  color: white;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+
+
+
+/*----------------------Contact Us--------------------------*/
+.contact-form {
+        padding: 50px;
+        margin: 30px auto;
+    }	
+    .contact-form h1 {
+        font-size: 42px;
+        font-family: 'Pacifico', sans-serif;
+        margin: 0 0 50px;
+        text-align: center;
+    }
+    .contact-form .form-group {
+        margin-bottom: 20px;
+    }
+    .contact-form .form-control, .contact-form .btn {
+        min-height: 38px;
+        border-radius: 2px;
+    }
+	.contact-form .form-control {
+		border-color: #e2c705;
+	}
+	.contact-form .form-control:focus {
+		border-color: #d8b012;
+		box-shadow: 0 0 8px #dcae10;
+	}
+    .contact-form .btn-primary {
+        min-width: 250px;
+        color: #fcda2e;
+        background: #000;
+        margin-top: 20px;
+        border: none;
+    }
+    .contact-form .btn-primary:hover {
+        color: #fff; 
+    }
+    .contact-form .btn-primary i {
+        margin-right: 5px;
+    }
+    .contact-form label {
+        opacity: 0.9;
+    }
+    .contact-form textarea {
+        resize: vertical;
+    }
+    .bs-example {
+    	margin: 20px;
+    }
+/*-----------------Historical Gem Page-----------------------*/
+.history{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+.history> div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  
+}
+.hisarticle1{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle1 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle2{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle2> div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle3{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle3 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle4{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle4 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle5{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle5 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle6{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle6 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle7{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle7 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle8{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle8 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle9{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle9 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle10{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle10 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle11{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle11 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle12{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle12 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle13{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle13 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle14{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-direction: row;
+}
+.hisarticle14 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle15{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle15 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ .hisarticle16{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.hisarticle16 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+ }
+ /*-------------------------Land of Peace and Spirituality---------------------------*/
+
+.spirituality{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spirituality > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}
+.spiritualitylist{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.spiritualitylist > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}
+.spiritualityarticle1{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle1 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle2{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle2 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle3{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle3 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle4{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle4 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle5{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle5 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle6{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle6 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle7{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle7 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle8{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle8 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle9{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle9 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle10{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle10 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle11{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle11 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle12{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle12 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle13{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle13 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle14{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle14 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle15{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle15 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle16{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle16 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+.spiritualityarticle17{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.spiritualityarticle17 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+}
+
+/*-------------------------The Gastronome’s Heaven---------------------------*/
+
+.food{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.food > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}
+.foodarticle1{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.foodarticle1 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.foodarticle2{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.foodarticle2 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.foodarticle3{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.foodarticle3 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.foodarticle4{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.foodarticle4 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.foodarticle5{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.foodarticle5 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.foodarticle6{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.foodarticle6 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+} 
+/*-------------------------An Adventurer's Resort---------------------------*/
+
+.adventure{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventure> div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}
+.adventurelist{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.adventurelist > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.adventurearticle1{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle1 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.adventurearticle2{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle2 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.adventurearticle3{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle3 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.adventurearticle4{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle4 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.adventurearticle5{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle5 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.adventurearticle6{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle6 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.adventurearticle7{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle7 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.adventurearticle8{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle8 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.adventurearticle9{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle9 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.adventurearticle10{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle10 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.adventurearticle11{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle11 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.adventurearticle12{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle12 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.adventurearticle13{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle13 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.adventurearticle14{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle14 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.adventurearticle15{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.adventurearticle15 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+} 
+/*-------------------------Fairyland Of Boundless Festivals---------------------------*/
+
+.festival{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festival> div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}
+.festivalcalendar{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.festivalcalendar > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.festivalarticle1{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle1 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.festivalarticle2{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle2 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.festivalarticle3{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle3 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.festivalarticle4{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle4 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.festivalarticle5{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle5 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.festivalarticle6{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle6 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.festivalarticle7{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle7 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.festivalarticle8{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle8 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.festivalarticle9{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle9 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.festivalarticle10{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle10 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.festivalarticle11{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle11 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.festivalarticle12{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle12 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.festivalarticle13{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle13 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.festivalarticle14{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle14 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.festivalarticle15{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle15 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.festivalarticle16{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle16 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.festivalarticle17{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle17 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.festivalarticle18{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle18 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.festivalarticle19{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle19 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.festivalarticle20{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.festivalarticle20 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+} 
+/*-------------------------The Shopaholic’s Favorite---------------------------*/
+
+.shopping{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shopping> div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}
+  
+.shoppingarticle1{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle1 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.shoppingarticle2{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle2 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.shoppingarticle3{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle3 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.shoppingarticle4{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle4 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.shoppingarticle5{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle5 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.shoppingarticle6{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle6 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.shoppingarticle7{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle7 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.shoppingarticle8{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle8 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.shoppingarticle9{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle9 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.shoppingarticle10{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle10 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.shoppingarticle11{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle11 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.shoppingarticle12{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle12 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.shoppingarticle13{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle13 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.shoppingarticle14{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle14 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+.shoppingarticle15{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.shoppingarticle15 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+} 
+/*-------------------------Heart of Performing Arts---------------------------*/
+
+.mySlides {
+   width:25%;
+   height:50%;
+   margin-left: auto;
+   margin-right: auto;
+   
+        
+ }
+.art{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.art> div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}
+  
+.artarticle1{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.artarticle1 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.artarticle2{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.artarticle2 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.artarticle3{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.artarticle3 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}  
+.artarticle4{
+  display: flex;
+  background-color: #8FBC8F;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.artarticle4 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;  
+}   
+
+
+
